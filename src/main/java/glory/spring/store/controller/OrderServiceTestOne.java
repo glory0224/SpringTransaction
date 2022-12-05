@@ -27,6 +27,7 @@ public class OrderServiceTestOne {
 		System.out.println("주문상태 정보");
 		System.out.println("아이템 : " + orderResult.getItem().getId());
 		System.out.println("가격 : " + orderResult.getPaymentInfo().getPrice());
+		System.out.println("원격 커밋 테스트 확인용 ");
 	}
 	
 	public void close() {
